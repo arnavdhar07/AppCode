@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6E6E6">
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="85dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="163dp"
+        android:background="#E6E6E6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/circle_shape" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="Asthma and Allergy Foundation"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="Breathing Exercises for Asthma"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="NIH Asthma Information"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="Identifying Asthma Triggers"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="EPA - Criteria Pollutants"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="Dealing with Asthma Attacks"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="How to Use an Inhaler"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="533dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="Creating an Asthma Action Plan"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="Cleaning Tips for Asthma Homes"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
